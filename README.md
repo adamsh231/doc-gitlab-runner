@@ -17,6 +17,7 @@ services:
 docker exec <container-gitlab-runner-name> -it bin/bash
 gitlab-runner register
 ```
+  - Image `alpine:latest`
   - Get from group or spesific runner token in `setting/CI-CD`
   - Change privilage in `config.toml` to `true`
   - Disable shared runner
